@@ -17,10 +17,10 @@ import javax.mail.internet.MimeMultipart;/**
  */
 public class MailOperation {
 
-    private final String user = "1763215059@qq.com";
-    private final String password = "ylzpyaopyblpecfi";
+    private final String user = "****@qq.com";
+    private final String password = "****";
     private final String host = "smtp.qq.com";
-    private final String from = "1763215059@qq.com";
+    private final String from = "***@qq.com";
 //    private final String to = "962073795@qq.com";// 收件人
     //邮箱主题
     private final String subject = "验证码.";

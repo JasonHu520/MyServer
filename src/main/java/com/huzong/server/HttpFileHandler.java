@@ -28,7 +28,6 @@ public class HttpFileHandler extends SimpleChannelInboundHandler<HttpObject>{
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, HttpObject msg) throws Exception {
         // TODO Auto-generated method stub
-//        JSONObject jObject = new JSONObject().put("code", "404").put("msg", "page not found");
 
         if (msg instanceof FullHttpRequest) {
 
