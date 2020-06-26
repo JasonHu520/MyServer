@@ -1,0 +1,254 @@
+2020-05-28 14:42:03 下午 [Thread: main][ Class:io.netty.util.internal.logging.InternalLoggerFactory >> Method: io.netty.util.internal.logging.InternalLoggerFactory.newDefaultFactory(InternalLoggerFactory.java:53) ]
+DEBUG:Using Log4J as the default logging framework
+2020-05-28 14:42:03 下午 [Thread: main][ Class:io.netty.channel.MultithreadEventLoopGroup >> Method: io.netty.channel.MultithreadEventLoopGroup.<clinit>(MultithreadEventLoopGroup.java:44) ]
+DEBUG:-Dio.netty.eventLoopThreads: 8
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.InternalThreadLocalMap >> Method: io.netty.util.internal.InternalThreadLocalMap.<clinit>(InternalThreadLocalMap.java:54) ]
+DEBUG:-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.InternalThreadLocalMap >> Method: io.netty.util.internal.InternalThreadLocalMap.<clinit>(InternalThreadLocalMap.java:57) ]
+DEBUG:-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.channel.nio.NioEventLoop >> Method: io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:106) ]
+DEBUG:-Dio.netty.noKeySetOptimization: false
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.channel.nio.NioEventLoop >> Method: io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:107) ]
+DEBUG:-Dio.netty.selectorAutoRebuildThreshold: 512
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent >> Method: io.netty.util.internal.PlatformDependent.isWindows0(PlatformDependent.java:987) ]
+DEBUG:Platform: Windows
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent0 >> Method: io.netty.util.internal.PlatformDependent0.explicitNoUnsafeCause0(PlatformDependent0.java:396) ]
+DEBUG:-Dio.netty.noUnsafe: false
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent0 >> Method: io.netty.util.internal.PlatformDependent0.javaVersion0(PlatformDependent0.java:852) ]
+DEBUG:Java version: 14
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent0 >> Method: io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:121) ]
+DEBUG:sun.misc.Unsafe.theUnsafe: available
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent0 >> Method: io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:145) ]
+DEBUG:sun.misc.Unsafe.copyMemory: available
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent0 >> Method: io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:183) ]
+DEBUG:java.nio.Buffer.address: available
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent0 >> Method: io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:253) ]
+DEBUG:direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:225)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:219)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:273)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.channel.nio.NioEventLoop.newTaskQueue0(NioEventLoop.java:279)
+	at io.netty.channel.nio.NioEventLoop.newTaskQueue(NioEventLoop.java:150)
+	at io.netty.channel.nio.NioEventLoop.<init>(NioEventLoop.java:138)
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:146)
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:37)
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84)
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:58)
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:96)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:91)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:72)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:52)
+	at com.huzong.server.server.run(server.java:18)
+	at com.huzong.StartServer.main(StartServer.java:7)
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent0 >> Method: io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:314) ]
+DEBUG:java.nio.Bits.unaligned: available, true
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent0 >> Method: io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:373) ]
+DEBUG:jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5702b3b1
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:376)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:647)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:335)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:326)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:273)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.channel.nio.NioEventLoop.newTaskQueue0(NioEventLoop.java:279)
+	at io.netty.channel.nio.NioEventLoop.newTaskQueue(NioEventLoop.java:150)
+	at io.netty.channel.nio.NioEventLoop.<init>(NioEventLoop.java:138)
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:146)
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:37)
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84)
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:58)
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:96)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:91)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:72)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:52)
+	at com.huzong.server.server.run(server.java:18)
+	at com.huzong.StartServer.main(StartServer.java:7)
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent0 >> Method: io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:386) ]
+DEBUG:java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent >> Method: io.netty.util.internal.PlatformDependent.unsafeUnavailabilityCause0(PlatformDependent.java:1030) ]
+DEBUG:sun.misc.Unsafe: available
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent >> Method: io.netty.util.internal.PlatformDependent.maxDirectMemory0(PlatformDependent.java:1130) ]
+DEBUG:maxDirectMemory: 4282384384 bytes (maybe)
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent >> Method: io.netty.util.internal.PlatformDependent.tmpdir0(PlatformDependent.java:1149) ]
+DEBUG:-Dio.netty.tmpdir: C:\Users\JasonHu\AppData\Local\Temp (java.io.tmpdir)
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent >> Method: io.netty.util.internal.PlatformDependent.bitMode0(PlatformDependent.java:1228) ]
+DEBUG:-Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent >> Method: io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:174) ]
+DEBUG:-Dio.netty.maxDirectMemory: -1 bytes
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent >> Method: io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:181) ]
+DEBUG:-Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.CleanerJava9 >> Method: io.netty.util.internal.CleanerJava9.<clinit>(CleanerJava9.java:71) ]
+DEBUG:java.nio.ByteBuffer.cleaner(): available
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent >> Method: io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:201) ]
+DEBUG:-Dio.netty.noPreferDirect: false
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent >> Method: io.netty.util.internal.PlatformDependent$Mpsc.<clinit>(PlatformDependent.java:891) ]
+DEBUG:org.jctools-core.MpscChunkedArrayQueue: available
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.channel.DefaultChannelId >> Method: io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:79) ]
+DEBUG:-Dio.netty.processId: 7860 (auto-detected)
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.NetUtil >> Method: io.netty.util.NetUtil.<clinit>(NetUtil.java:139) ]
+DEBUG:-Djava.net.preferIPv4Stack: false
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.NetUtil >> Method: io.netty.util.NetUtil.<clinit>(NetUtil.java:140) ]
+DEBUG:-Djava.net.preferIPv6Addresses: false
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.NetUtil >> Method: io.netty.util.NetUtil.<clinit>(NetUtil.java:224) ]
+DEBUG:Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.NetUtil >> Method: io.netty.util.NetUtil$1.run(NetUtil.java:289) ]
+DEBUG:Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.channel.DefaultChannelId >> Method: io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:101) ]
+DEBUG:-Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.ResourceLeakDetector >> Method: io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:130) ]
+DEBUG:-Dio.netty.leakDetection.level: simple
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.util.ResourceLeakDetector >> Method: io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:131) ]
+DEBUG:-Dio.netty.leakDetection.targetRecords: 4
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:142) ]
+DEBUG:-Dio.netty.allocator.numHeapArenas: 8
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:143) ]
+DEBUG:-Dio.netty.allocator.numDirectArenas: 8
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:145) ]
+DEBUG:-Dio.netty.allocator.pageSize: 8192
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:150) ]
+DEBUG:-Dio.netty.allocator.maxOrder: 11
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:154) ]
+DEBUG:-Dio.netty.allocator.chunkSize: 16777216
+2020-05-28 14:42:04 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:155) ]
+DEBUG:-Dio.netty.allocator.tinyCacheSize: 512
+2020-05-28 14:42:05 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:156) ]
+DEBUG:-Dio.netty.allocator.smallCacheSize: 256
+2020-05-28 14:42:05 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:157) ]
+DEBUG:-Dio.netty.allocator.normalCacheSize: 64
+2020-05-28 14:42:05 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:158) ]
+DEBUG:-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-05-28 14:42:05 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:159) ]
+DEBUG:-Dio.netty.allocator.cacheTrimInterval: 8192
+2020-05-28 14:42:05 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:160) ]
+DEBUG:-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-05-28 14:42:05 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:161) ]
+DEBUG:-Dio.netty.allocator.useCacheForAllThreads: true
+2020-05-28 14:42:05 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:162) ]
+DEBUG:-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-05-28 14:42:05 下午 [Thread: main][ Class:io.netty.buffer.ByteBufUtil >> Method: io.netty.buffer.ByteBufUtil.<clinit>(ByteBufUtil.java:86) ]
+DEBUG:-Dio.netty.allocator.type: pooled
+2020-05-28 14:42:05 下午 [Thread: main][ Class:io.netty.buffer.ByteBufUtil >> Method: io.netty.buffer.ByteBufUtil.<clinit>(ByteBufUtil.java:95) ]
+DEBUG:-Dio.netty.threadLocalDirectBufferSize: 0
+2020-05-28 14:42:05 下午 [Thread: main][ Class:io.netty.buffer.ByteBufUtil >> Method: io.netty.buffer.ByteBufUtil.<clinit>(ByteBufUtil.java:98) ]
+DEBUG:-Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-05-28 14:42:25 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.buffer.AbstractByteBuf >> Method: io.netty.buffer.AbstractByteBuf.<clinit>(AbstractByteBuf.java:63) ]
+DEBUG:-Dio.netty.buffer.checkAccessible: true
+2020-05-28 14:42:25 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.buffer.AbstractByteBuf >> Method: io.netty.buffer.AbstractByteBuf.<clinit>(AbstractByteBuf.java:64) ]
+DEBUG:-Dio.netty.buffer.checkBounds: true
+2020-05-28 14:42:25 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.util.ResourceLeakDetectorFactory >> Method: io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory.newResourceLeakDetector(ResourceLeakDetectorFactory.java:195) ]
+DEBUG:Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@db22972
+2020-05-28 14:42:25 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.util.Recycler >> Method: io.netty.util.Recycler.<clinit>(Recycler.java:97) ]
+DEBUG:-Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-05-28 14:42:25 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.util.Recycler >> Method: io.netty.util.Recycler.<clinit>(Recycler.java:98) ]
+DEBUG:-Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-05-28 14:42:25 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.util.Recycler >> Method: io.netty.util.Recycler.<clinit>(Recycler.java:99) ]
+DEBUG:-Dio.netty.recycler.linkCapacity: 16
+2020-05-28 14:42:25 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.util.Recycler >> Method: io.netty.util.Recycler.<clinit>(Recycler.java:100) ]
+DEBUG:-Dio.netty.recycler.ratio: 8
+2020-05-28 14:42:25 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-05-28 14:42:25 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-28 14:42:25 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-28 14:42:25 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-28 14:42:25 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-28 14:42:25 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:108) ]
+DEBUG:Class not found: org.jboss.vfs.VFS
+2020-05-28 14:42:25 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.JBoss6VFS >> Method: org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142) ]
+DEBUG:JBoss 6 VFS API is not available in this environment.
+2020-05-28 14:42:25 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:108) ]
+DEBUG:Class not found: org.jboss.vfs.VirtualFile
+2020-05-28 14:42:25 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63) ]
+DEBUG:VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-05-28 14:42:25 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74) ]
+DEBUG:Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-05-28 14:42:25 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/JasonHu/IdeaProjects/MyServer/target/classes/com/huzong/mybatis/dao
+2020-05-28 14:42:25 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:250) ]
+DEBUG:Not a JAR: file:/C:/Users/JasonHu/IdeaProjects/MyServer/target/classes/com/huzong/mybatis/dao
+2020-05-28 14:42:26 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: IFriendDao.class
+2020-05-28 14:42:26 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: IMessageDao.class
+2020-05-28 14:42:26 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: IUserInfoDao.class
+2020-05-28 14:42:26 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113) ]
+DEBUG:Listing file:/C:/Users/JasonHu/IdeaProjects/MyServer/target/classes/com/huzong/mybatis/dao
+2020-05-28 14:42:26 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/JasonHu/IdeaProjects/MyServer/target/classes/com/huzong/mybatis/dao/IFriendDao.class
+2020-05-28 14:42:26 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:250) ]
+DEBUG:Not a JAR: file:/C:/Users/JasonHu/IdeaProjects/MyServer/target/classes/com/huzong/mybatis/dao/IFriendDao.class
+2020-05-28 14:42:26 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ����   :   !com/huzong/mybatis/dao/IFriendDao  java/lang/Object findFriendByUser $(Ljava/lang/String;)Ljava/util/List; 	Signature H(Ljava/lang/String;)Ljava/util/List<Lcom/huzong/mybatis/domain/Friend;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value ,select * from friendlist where user= #{user} 
+2020-05-28 14:42:26 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/JasonHu/IdeaProjects/MyServer/target/classes/com/huzong/mybatis/dao/IMessageDao.class
+2020-05-28 14:42:26 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:250) ]
+DEBUG:Not a JAR: file:/C:/Users/JasonHu/IdeaProjects/MyServer/target/classes/com/huzong/mybatis/dao/IMessageDao.class
+2020-05-28 14:42:26 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ����   :   "com/huzong/mybatis/dao/IMessageDao  java/lang/Object add_message &(Lcom/huzong/mybatis/domain/Message;)V RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Insert; value ninsert into message(message_data, to_user, from_user_name)values(#{message_data},#{to_user},#{from_user_name}) findMessageByName (Ljava/lang/String;)V &Lorg/apache/ibatis/annotations/Select; .select * from message where to_user=#{to_user} 
+2020-05-28 14:42:26 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/JasonHu/IdeaProjects/MyServer/target/classes/com/huzong/mybatis/dao/IUserInfoDao.class
+2020-05-28 14:42:26 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:250) ]
+DEBUG:Not a JAR: file:/C:/Users/JasonHu/IdeaProjects/MyServer/target/classes/com/huzong/mybatis/dao/IUserInfoDao.class
+2020-05-28 14:42:26 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ����   :   #com/huzong/mybatis/dao/IUserInfoDao  java/lang/Object addUser '(Lcom/huzong/mybatis/domain/UserInfo;)V RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Insert; value �insert into userinfo(userName, password, email, phoneNumber, LogState, City, image_head) values(#{userName},#{password},#{email},#{phoneNumber},#{LogState},#{City},#{image_head}) findUserByName 8(Ljava/lang/String;)Lcom/huzong/mybatis/domain/UserInfo; &Lorg/apache/ibatis/annotations/Select; 2select * from userinfo where userName= #{userName} updateUserInfo &Lorg/apache/ibatis/annotations/Update; �update userinfo set userName = #{userName},password = #{password},email = #{email},phoneNumber = #{phoneNumber},LogState = #{LogState},City = #{City},image_head = #{image_head} where id = #{id} 
+2020-05-28 14:42:26 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class com.huzong.mybatis.dao.IFriendDao matches criteria [is assignable to Object]
+2020-05-28 14:42:26 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class com.huzong.mybatis.dao.IMessageDao matches criteria [is assignable to Object]
+2020-05-28 14:42:26 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class com.huzong.mybatis.dao.IUserInfoDao matches criteria [is assignable to Object]
+2020-05-28 14:42:26 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.codec.compression.ZlibCodecFactory >> Method: io.netty.handler.codec.compression.ZlibCodecFactory.<clinit>(ZlibCodecFactory.java:39) ]
+DEBUG:-Dio.netty.noJdkZlibDecoder: false
+2020-05-28 14:42:26 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.codec.compression.ZlibCodecFactory >> Method: io.netty.handler.codec.compression.ZlibCodecFactory.<clinit>(ZlibCodecFactory.java:42) ]
+DEBUG:-Dio.netty.noJdkZlibEncoder: false
+2020-05-28 14:46:23 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136) ]
+DEBUG:Opening JDBC Connection
+2020-05-28 14:46:23 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424) ]
+DEBUG:Created connection 1056521829.
+2020-05-28 14:46:23 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3ef93e65]
+2020-05-28 14:46:23 下午 [Thread: nioEventLoopGroup-3-1][ Class:com.huzong.mybatis.dao.IMessageDao.add_message >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: insert into message(message_data, to_user, from_user_name)values(?,?,?) 
+2020-05-28 14:46:23 下午 [Thread: nioEventLoopGroup-3-1][ Class:com.huzong.mybatis.dao.IMessageDao.add_message >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: 你好啊(String), 大哥9(String), 胡宗超(String)
+2020-05-28 14:46:23 下午 [Thread: nioEventLoopGroup-3-1][ Class:com.huzong.mybatis.dao.IMessageDao.add_message >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==    Updates: 1
+2020-05-28 14:46:23 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69) ]
+DEBUG:Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3ef93e65]
+2020-05-28 15:51:25 下午 [Thread: nioEventLoopGroup-3-3][ Class:com.huzong.mybatis.dao.IMessageDao.add_message >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: insert into message(message_data, to_user, from_user_name)values(?,?,?) 
+2020-05-28 15:51:25 下午 [Thread: nioEventLoopGroup-3-3][ Class:com.huzong.mybatis.dao.IMessageDao.add_message >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: 明明依旧牌子你快去拍你use个谢瑞二心MP5怕搜狗去看去搜了必修三54873179(String), 大哥9(String), 胡宗超(String)
+2020-05-28 15:51:25 下午 [Thread: nioEventLoopGroup-3-3][ Class:com.huzong.mybatis.dao.IMessageDao.add_message >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==    Updates: 1
+2020-05-28 15:51:25 下午 [Thread: nioEventLoopGroup-3-3][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69) ]
+DEBUG:Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3ef93e65]
+2020-05-28 15:53:12 下午 [Thread: nioEventLoopGroup-3-1][ Class:com.huzong.mybatis.dao.IMessageDao.add_message >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: insert into message(message_data, to_user, from_user_name)values(?,?,?) 
+2020-05-28 15:53:12 下午 [Thread: nioEventLoopGroup-3-1][ Class:com.huzong.mybatis.dao.IMessageDao.add_message >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: (String), 大哥9(String), 胡宗超(String)
+2020-05-28 15:53:12 下午 [Thread: nioEventLoopGroup-3-1][ Class:com.huzong.mybatis.dao.IMessageDao.add_message >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==    Updates: 1
+2020-05-28 15:53:12 下午 [Thread: nioEventLoopGroup-3-1][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69) ]
+DEBUG:Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3ef93e65]
+2020-05-28 16:14:44 下午 [Thread: nioEventLoopGroup-3-2][ Class:com.huzong.mybatis.dao.IMessageDao.add_message >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: insert into message(message_data, to_user, from_user_name)values(?,?,?) 
+2020-05-28 16:14:44 下午 [Thread: nioEventLoopGroup-3-2][ Class:com.huzong.mybatis.dao.IMessageDao.add_message >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: 嗯阿狸催促安踏不把他不不夜城不错KTV来去 开头楼梯咕噜(String), 大哥9(String), 胡宗超(String)
+2020-05-28 16:14:44 下午 [Thread: nioEventLoopGroup-3-2][ Class:com.huzong.mybatis.dao.IMessageDao.add_message >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==    Updates: 1
+2020-05-28 16:14:44 下午 [Thread: nioEventLoopGroup-3-2][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69) ]
+DEBUG:Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3ef93e65]
