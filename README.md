@@ -1,2 +1,2 @@
-# Myserver
-这是一个poi推荐APP（去这里https://github.com/JasonHu520/RecommendPoi.git)的数据管理交互的小型后台
+# Myserve
+这是一个poi推荐APP的数据管理交互的小型后台--去这里https://github.com/JasonHu520/RecommendPoi.git
