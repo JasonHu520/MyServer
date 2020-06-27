@@ -20,10 +20,10 @@ app = Flask(__name__)
 conn = pymysql.connect(host="192.168.192.128", port=3306, user="root", password="hzc", database="test", charset="utf8")
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'JPG', 'PNG', 'bmp'])
 mailInfo = {
-    "from": "1763215059@qq.com",
-    "to": "962073795@qq.com",
+    "from": "****@qq.com",
+    "to": "****@qq.com",
     "hostname": "smtp.qq.com",
-    "username": "1763215059@qq.com",
+    "username": "******@qq.com",
     "password": "orxmtxjbdwbdeaed",
     "mailsubject": "验证码",
     "mailtext": "hello, this is send mail test.",
